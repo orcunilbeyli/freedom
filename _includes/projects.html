@@ -1,0 +1,15 @@
+<section class="slogan">
+  {{ site.slogan }}
+</section>
+<span id="work" class="projects-title">Featured Projects</span>
+<ul class="projects">
+{% for post in site.posts %}
+<li>
+  <a href="{{ post.url }}">
+  <img src="/assets/images/projects/{{ post.image }}" alt="">
+  <h2>{{ post.title }}</h2>
+  <span class="post_sub-headline">{{ post.sub-headline }}</span>
+  </a>
+</li>
+{% endfor %}
+</ul>

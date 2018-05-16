@@ -1,0 +1,10 @@
+title: Orçun İlbeyli
+description: Product Designer
+slogan: Never Settle
+permalink: projects/:title
+sass:
+    style: compressed
+
+analyticsId: UA-118665913-1
+host: 0.0.0.0
+port: 4000

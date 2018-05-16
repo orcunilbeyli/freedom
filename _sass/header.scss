@@ -1,0 +1,48 @@
+header {
+  margin-bottom: 50px;
+  display: grid ;
+  grid-template-columns: 50% 50%;
+  a,
+  a:active,
+  a:visited {
+    color: $black;
+    transition: color 0.15s;
+  }
+  .title {
+    a:hover {
+     color: $accent-color;
+   }
+  }
+
+  h1 {
+    font-size: 22px;
+    display: inline-block;
+    font-size: bold;
+  }
+
+  span.description {
+    font-size: 16px;
+    color: $black;
+    opacity: 0.6;
+  }
+  nav {
+    display: inline-grid;
+    grid-column-gap: 50px;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    justify-content: end;
+    a,
+    a:active,
+    a:visited {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+    }
+    a:hover::before {
+      content:'•';
+      position: absolute;
+      margin-left: -15px;
+      color:$accent-color;
+    }
+  }
+}

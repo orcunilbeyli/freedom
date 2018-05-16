@@ -1,0 +1,45 @@
+section.slogan {
+  background: $secondary-color;
+  font-family: $heading-font;
+  height: 490px;
+  font-size: 71px;
+  margin-bottom: 90px;
+  display: grid;
+  place-content: center start;
+  padding-left: 60px;
+}
+.projects-title {
+  font-family: $heading-font;
+  font-size: 32px;
+  display: block;
+  margin-bottom: 30px;
+}
+ul.projects {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  grid-gap: 65px 65px;
+  li {
+    list-style: none;
+    text-align: center;
+
+    a {
+      color: $black;
+
+      h2 {
+        font-family: $heading-font;
+        font-size: 24px;
+        margin: 20px 0 10px 0;
+        font-weight: 400;
+      }
+
+      span {
+        opacity: 0.6;
+        font-size: 16px;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}

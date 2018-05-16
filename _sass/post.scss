@@ -1,0 +1,29 @@
+section.post {
+  padding-top: 110px;
+  h1 {
+    font-family: $heading-font;
+    font-size: 48px;
+  }
+  .categories {
+    color: #737373;
+    font-size: 22px;
+    margin: 20px 0 30px 0;
+  }
+  .summary {
+    font-size: 28px;
+    line-height: 44px;
+    max-width: 650px;
+    margin-bottom: 70px;
+  }
+  p {
+    font-size: 22px;
+    line-height: 32px;
+    max-width: 720px;
+    text-align: center;
+    margin: 35px auto;
+  }
+  img {
+      width: 920px;
+      margin-left: calc(-460px + 50%);
+  }
+}

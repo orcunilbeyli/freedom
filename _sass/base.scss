@@ -1,0 +1,15 @@
+body {
+  font-family: $system-font;
+  -webkit-font-smoothing: antialiased;
+}
+a {
+  text-decoration: none;
+}
+::selection {
+  background: $secondary-color;
+}
+.wrapper {
+  max-width: 1090px;
+  margin: auto;
+  padding: 50px;
+}

@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  .note , .social {
+    margin-top: 15px;
+  }
+    a {
+      color: $black;
+      font-weight: bold;
+      &:hover {
+        text-decoration:underline;
+      }
+    }
+}

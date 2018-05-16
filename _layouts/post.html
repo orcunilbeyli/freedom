@@ -1,5 +1,13 @@
----
-layout: default
----
+{% include header.html %}
+<section class="post">
+  <h1>{{ page.title }}</h1>
+  <div class="categories">{{ page.tags }}</div>
+  <div class="content">
+    <div class="summary">
+      {{ page.summary }}
+    </div>
+     {{ content }}
+  </div>
+</section>
 
-{{ content }}
+{% include footer.html %}
